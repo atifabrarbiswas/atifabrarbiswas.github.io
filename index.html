@@ -1,0 +1,2166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atif Abrar Biswas | Industrial & Production Engineering</title>
+
+    <meta name="description"
+          content="Portfolio of Atif Abrar Biswas, Industrial & Production Engineering researcher from Rajshahi University of Engineering & Technology (RUET).">
+
+    <meta name="keywords"
+          content="Atif Abrar Biswas, RUET, Industrial Engineering, Production Engineering, Operations Research, Supply Chain, Hesitant Fuzzy Set, Research">
+
+    <meta name="author" content="Atif Abrar Biswas">
+
+    <style>
+        /* =========================================================
+           RESET
+        ========================================================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            color: #1f2937;
+            background: #f8fafc;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            padding: 90px 0;
+            scroll-margin-top: 80px;
+        }
+
+        /* =========================================================
+           NAVBAR
+        ========================================================= */
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        nav {
+            min-height: 74px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: #111827;
+            white-space: nowrap;
+        }
+
+        .logo span {
+            color: #2563eb;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            padding: 0;
+        }
+
+        .nav-links a {
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: #374151;
+            transition: 0.25s ease;
+        }
+
+        .nav-links a:hover {
+            color: #2563eb;
+        }
+
+        /* =========================================================
+           HERO
+        ========================================================= */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 125px;
+            background:
+                radial-gradient(circle at 85% 15%, #dbeafe 0, transparent 28%),
+                radial-gradient(circle at 10% 80%, #e0e7ff 0, transparent 25%),
+                linear-gradient(135deg, #f8fafc, #eff6ff);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.45fr 0.85fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .eyebrow {
+            color: #2563eb;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: 0.85rem;
+            margin-bottom: 14px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.8rem, 7vw, 5rem);
+            line-height: 1.04;
+            color: #111827;
+            margin-bottom: 18px;
+        }
+
+        .hero h1 span {
+            color: #2563eb;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: #4b5563;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .hero-description {
+            max-width: 760px;
+            color: #6b7280;
+            font-size: 1.04rem;
+            margin-bottom: 28px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 22px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 20px;
+            border-radius: 9px;
+            font-weight: 800;
+            transition: 0.25s ease;
+            border: 2px solid transparent;
+        }
+
+        .btn-primary {
+            background: #2563eb;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            border-color: #2563eb;
+            color: #2563eb;
+            background: transparent;
+        }
+
+        .btn-outline:hover {
+            background: #2563eb;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .social-row {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+            color: #4b5563;
+            font-weight: 700;
+            font-size: 0.92rem;
+        }
+
+        .social-row a:hover {
+            color: #2563eb;
+        }
+
+        .profile-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 18px;
+            padding: 32px;
+            box-shadow: 0 22px 60px rgba(15, 23, 42, 0.10);
+        }
+
+        .profile-card h3 {
+            color: #111827;
+            font-size: 1.35rem;
+            margin-bottom: 22px;
+        }
+
+        .profile-item {
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            gap: 12px;
+            margin-bottom: 17px;
+        }
+
+        .profile-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #eff6ff;
+            font-size: 1.1rem;
+        }
+
+        .profile-item strong {
+            display: block;
+            font-size: 0.86rem;
+            color: #111827;
+        }
+
+        .profile-item p {
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        /* =========================================================
+           COMMON SECTION TITLE
+        ========================================================= */
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 52px;
+        }
+
+        .section-header h2 {
+            color: #111827;
+            font-size: 2.25rem;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .section-header p {
+            max-width: 760px;
+            margin: auto;
+            color: #6b7280;
+        }
+
+        /* =========================================================
+           ABOUT / EDUCATION
+        ========================================================= */
+
+        .about {
+            background: white;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 45px;
+            align-items: stretch;
+        }
+
+        .content-box {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 30px;
+        }
+
+        .content-box h3 {
+            color: #111827;
+            margin-bottom: 18px;
+            font-size: 1.45rem;
+        }
+
+        .content-box p {
+            color: #6b7280;
+            margin-bottom: 13px;
+        }
+
+        .education-card {
+            border-left: 5px solid #2563eb;
+        }
+
+        .education-card .degree {
+            color: #111827;
+            font-weight: 800;
+            font-size: 1.15rem;
+            margin-bottom: 8px;
+        }
+
+        .education-card .university {
+            color: #374151;
+            font-weight: 700;
+        }
+
+        .education-card .location,
+        .education-card .date {
+            color: #6b7280;
+        }
+
+        .cgpa-badge {
+            display: inline-block;
+            margin-top: 14px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: #dbeafe;
+            color: #1d4ed8;
+            font-weight: 800;
+        }
+
+        /* =========================================================
+           RESEARCH INTERESTS
+        ========================================================= */
+
+        .research-interests {
+            background: #f8fafc;
+        }
+
+        .interest-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .interest-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 13px;
+            padding: 23px 18px;
+            text-align: center;
+            transition: 0.25s ease;
+        }
+
+        .interest-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        .interest-card h4 {
+            color: #111827;
+            font-size: 1rem;
+        }
+
+        /* =========================================================
+           PUBLICATIONS
+        ========================================================= */
+
+        .publications {
+            background: white;
+        }
+
+        .publication-list {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+
+        .publication-card {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 29px;
+            transition: 0.25s ease;
+        }
+
+        .publication-card:hover {
+            box-shadow: 0 12px 32px rgba(15, 23, 42, 0.07);
+            transform: translateY(-2px);
+        }
+
+        .publication-label {
+            color: #2563eb;
+            font-size: 0.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 9px;
+        }
+
+        .publication-card h3 {
+            font-size: 1.08rem;
+            line-height: 1.5;
+            color: #111827;
+            margin-bottom: 11px;
+        }
+
+        .publication-card p {
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        .publication-link {
+            display: inline-block;
+            margin-top: 14px;
+            color: #2563eb;
+            font-size: 0.9rem;
+            font-weight: 800;
+        }
+
+        .publication-link:hover {
+            text-decoration: underline;
+        }
+
+        /* =========================================================
+           RESEARCH EXPERIENCE
+        ========================================================= */
+
+        .research-experience {
+            background: #f8fafc;
+        }
+
+        .research-list {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+        }
+
+        .research-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 30px;
+        }
+
+        .research-card h3 {
+            color: #111827;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .status {
+            display: inline-block;
+            margin-bottom: 13px;
+            padding: 5px 12px;
+            border-radius: 999px;
+            background: #dbeafe;
+            color: #1d4ed8;
+            font-size: 0.78rem;
+            font-weight: 800;
+        }
+
+        .research-card ul {
+            color: #6b7280;
+        }
+
+        .research-card li {
+            margin-bottom: 8px;
+        }
+
+        /* =========================================================
+           PROJECTS
+        ========================================================= */
+
+        .projects {
+            background: white;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 23px;
+        }
+
+        .project-card {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 29px;
+            transition: 0.25s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.07);
+        }
+
+        .project-card h3 {
+            color: #111827;
+            font-size: 1.15rem;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            color: #6b7280;
+        }
+
+        /* =========================================================
+           TECHNICAL SKILLS
+        ========================================================= */
+
+        .skills {
+            background: #f8fafc;
+        }
+
+        .skill-groups {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 23px;
+        }
+
+        .skill-group {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 27px;
+        }
+
+        .skill-group h3 {
+            color: #111827;
+            margin-bottom: 18px;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+        }
+
+        .skill-tag {
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: #eff6ff;
+            color: #1d4ed8;
+            font-size: 0.84rem;
+            font-weight: 700;
+        }
+
+        /* =========================================================
+           PROFESSIONAL EXPERIENCE
+        ========================================================= */
+
+        .professional {
+            background: white;
+        }
+
+        .timeline {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 35px;
+            padding-bottom: 36px;
+            border-left: 2px solid #dbeafe;
+        }
+
+        .timeline-item:last-child {
+            border-left: none;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -8px;
+            top: 4px;
+            width: 14px;
+            height: 14px;
+            background: #2563eb;
+            border-radius: 50%;
+        }
+
+        .timeline-item h3 {
+            color: #111827;
+            font-size: 1.18rem;
+            margin-bottom: 6px;
+        }
+
+        .timeline-date {
+            color: #2563eb;
+            font-weight: 800;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .timeline-item p {
+            color: #6b7280;
+            margin-bottom: 9px;
+        }
+
+        /* =========================================================
+           AFFILIATIONS
+        ========================================================= */
+
+        .affiliations {
+            background: #f8fafc;
+        }
+
+        .affiliation-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 23px;
+        }
+
+        .affiliation-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 28px;
+        }
+
+        .affiliation-card h3 {
+            color: #111827;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .affiliation-role {
+            color: #2563eb;
+            font-weight: 800;
+            font-size: 0.9rem;
+            margin-bottom: 11px;
+        }
+
+        .affiliation-card p {
+            color: #6b7280;
+            margin-bottom: 7px;
+            font-size: 0.94rem;
+        }
+
+        /* =========================================================
+           CERTIFICATIONS
+        ========================================================= */
+
+        .certifications {
+            background: white;
+        }
+
+        .cert-list {
+            max-width: 920px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .cert-item {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 11px;
+            padding: 18px 21px;
+            color: #4b5563;
+        }
+
+        /* =========================================================
+           REFERENCES
+        ========================================================= */
+
+        .references {
+            background: #f8fafc;
+        }
+
+        .reference-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 23px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .reference-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 28px;
+        }
+
+        .reference-card h3 {
+            color: #111827;
+            margin-bottom: 7px;
+        }
+
+        .reference-card .position {
+            color: #2563eb;
+            font-weight: 800;
+            margin-bottom: 7px;
+        }
+
+        .reference-card p {
+            color: #6b7280;
+        }
+
+        .reference-note {
+            max-width: 900px;
+            margin: 20px auto 0;
+            color: #6b7280;
+            font-size: 0.87rem;
+            text-align: center;
+        }
+
+        /* =========================================================
+           CONTACT
+        ========================================================= */
+
+        .contact {
+            background: #111827;
+            color: white;
+        }
+
+        .contact .section-header h2 {
+            color: white;
+        }
+
+        .contact .section-header p {
+            color: #9ca3af;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .contact-card {
+            background: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 13px;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .contact-card h3 {
+            margin-bottom: 8px;
+            color: white;
+        }
+
+        .contact-card p {
+            color: #9ca3af;
+            font-size: 0.92rem;
+        }
+
+        .contact-card a {
+            color: #93c5fd;
+            font-weight: 700;
+        }
+
+        /* =========================================================
+           FOOTER
+        ========================================================= */
+
+        footer {
+            background: #0b1120;
+            color: #9ca3af;
+            text-align: center;
+            padding: 22px;
+            font-size: 0.9rem;
+        }
+
+        /* =========================================================
+           RESPONSIVE
+        ========================================================= */
+
+        @media (max-width: 1050px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .interest-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .skill-groups,
+            .affiliation-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 800px) {
+
+            .nav-links {
+                display: none;
+            }
+
+            .about-grid,
+            .project-grid,
+            .reference-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skill-groups,
+            .affiliation-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding-top: 110px;
+            }
+
+            section {
+                padding: 70px 0;
+            }
+        }
+
+        @media (max-width: 520px) {
+
+            .interest-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 2.6rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.08rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .profile-card,
+            .content-box,
+            .research-card,
+            .project-card,
+            .publication-card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<header>
+    <div class="container">
+        <nav>
+
+            <a href="#home" class="logo">
+                Atif <span>Abrar</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#affiliations">Affiliations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero" id="home">
+
+    <div class="container">
+
+        <div class="hero-grid">
+
+            <div>
+
+                <div class="eyebrow">
+                    Industrial & Production Engineering
+                </div>
+
+                <h1>
+                    Atif Abrar <span>Biswas</span>
+                </h1>
+
+                <div class="hero-subtitle">
+                    Researcher • Industrial & Production Engineering
+                </div>
+
+                <p class="hero-description">
+                    I am an Industrial & Production Engineering student at
+                    Rajshahi University of Engineering & Technology (RUET).
+                    My academic and research interests include Operations
+                    Research, Hesitant Fuzzy Set, Supply Chain, Quality
+                    Control, Operation Management, Product Design,
+                    Probability and Statistics, and Computational Modeling.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <!-- Replace # with your CV PDF link -->
+                    <a href="#" class="btn btn-primary" target="_blank">
+                        View CV
+                    </a>
+
+                    <!-- Replace # with actual LinkedIn URL -->
+                    <a href="#" class="btn btn-outline" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <!-- Replace # with actual Google Scholar URL -->
+                    <a href="#" class="btn btn-outline" target="_blank">
+                        Google Scholar
+                    </a>
+
+                </div>
+
+                <div class="social-row">
+
+                    <!-- Replace # with actual links -->
+                    <a href="#" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="#" target="_blank">
+                        Google Scholar
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="profile-card">
+
+                <h3>Academic Profile</h3>
+
+                <div class="profile-item">
+                    <div class="profile-icon">🎓</div>
+                    <div>
+                        <strong>Degree</strong>
+                        <p>B.Sc. Industrial & Production Engineering</p>
+                    </div>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon">🏫</div>
+                    <div>
+                        <strong>University</strong>
+                        <p>Rajshahi University of Engineering & Technology (RUET)</p>
+                    </div>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon">📍</div>
+                    <div>
+                        <strong>Location</strong>
+                        <p>Rajshahi, Bangladesh</p>
+                    </div>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon">📅</div>
+                    <div>
+                        <strong>Study Period</strong>
+                        <p>March 2022 – July 2026</p>
+                    </div>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon">📊</div>
+                    <div>
+                        <strong>CGPA</strong>
+                        <p>3.55 / 4.00</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section class="about" id="about">
+
+    <div class="container">
+
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p>
+                Academic background and professional research interests.
+            </p>
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="content-box">
+
+                <h3>Academic Profile</h3>
+
+                <p>
+                    I am pursuing a B.Sc. in Industrial & Production
+                    Engineering at Rajshahi University of Engineering &
+                    Technology (RUET), Rajshahi.
+                </p>
+
+                <p>
+                    My academic interests cover Operations Research,
+                    Hesitant Fuzzy Set, Supply Chain, Quality Control,
+                    Operation Management, Product Design, Probability
+                    and Statistics, and Computational Modeling.
+                </p>
+
+                <p>
+                    My research activities have involved decision-making,
+                    artificial intelligence implementation, renewable
+                    energy systems, demand forecasting, inventory
+                    management, and customer-oriented product design.
+                </p>
+
+            </div>
+
+
+            <div class="content-box education-card">
+
+                <h3>Education</h3>
+
+                <div class="degree">
+                    B.Sc. Industrial & Production Engineering
+                </div>
+
+                <p class="university">
+                    Rajshahi University of Engineering & Technology (RUET)
+                </p>
+
+                <p class="location">
+                    Rajshahi, Bangladesh
+                </p>
+
+                <p class="date">
+                    March 2022 – July 2026
+                </p>
+
+                <span class="cgpa-badge">
+                    CGPA: 3.55 / 4.00
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     RESEARCH INTERESTS
+========================================================= -->
+
+<section class="research-interests" id="research">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Research Interests</h2>
+
+            <p>
+                Areas of research interest listed in my academic profile.
+            </p>
+
+        </div>
+
+
+        <div class="interest-grid">
+
+            <div class="interest-card">
+                <h4>Operations Research</h4>
+            </div>
+
+            <div class="interest-card">
+                <h4>Hesitant Fuzzy Set</h4>
+            </div>
+
+            <div class="interest-card">
+                <h4>Supply Chain</h4>
+            </div>
+
+            <div class="interest-card">
+                <h4>Quality Control</h4>
+            </div>
+
+            <div class="interest-card">
+                <h4>Operation Management</h4>
+            </div>
+
+            <div class="interest-card">
+                <h4>Product Design</h4>
+            </div>
+
+            <div class="interest-card">
+                <h4>Probability and Statistics</h4>
+            </div>
+
+            <div class="interest-card">
+                <h4>Computational Modeling</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PUBLICATIONS
+========================================================= -->
+
+<section class="publications" id="publications">
+
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Publications</h2>
+            <p>
+                Research publications and conference works.
+            </p>
+        </div>
+
+
+        <div class="publication-list">
+
+
+            <!-- Publication 1 -->
+
+            <article class="publication-card">
+
+                <div class="publication-label">
+                    Publication 01
+                </div>
+
+                <h3>
+                    Strategic implementation of artificial intelligence
+                    and machine learning in the pharmaceutical sector:
+                    A dual hesitant fuzzy group decision making approach
+                </h3>
+
+                <p>
+                    M. Ashaduzzaman, N. I. Nawar, S. A. Khan,
+                    A. A. Biswas, and M. M. Islam,
+                    “Strategic implementation of artificial intelligence
+                    and machine learning in the pharmaceutical sector:
+                    A dual hesitant fuzzy group decision making approach,”
+                    in Proceedings of the 7th IEOM Bangladesh International
+                    Conference on Industrial Engineering and Operations
+                    Management, IEOM Society, 2024.
+                </p>
+
+                <a class="publication-link"
+                   href="https://doi.org/10.46254/BA07.20240185"
+                   target="_blank">
+                    DOI: 10.46254/BA07.20240185 →
+                </a>
+
+            </article>
+
+
+            <!-- Publication 2 -->
+
+            <article class="publication-card">
+
+                <div class="publication-label">
+                    Publication 02
+                </div>
+
+                <h3>
+                    Integrating renewable energy and customer insights:
+                    A systematic approach to solar power bank design
+                </h3>
+
+                <p>
+                    S. A. Khan, M. Ashaduzzaman, A. A. Biswas,
+                    N. I. Nawar, M. A. Haque, and S. Mahmud,
+                    “Integrating renewable energy and customer insights:
+                    A systematic approach to solar power bank design,”
+                    in Proceedings of the 7th IEOM Bangladesh International
+                    Conference on Industrial Engineering and Operations
+                    Management, IEOM Society, 2024.
+                </p>
+
+                <a class="publication-link"
+                   href="https://doi.org/10.46254/BA07.20240280"
+                   target="_blank">
+                    DOI: 10.46254/BA07.20240280 →
+                </a>
+
+            </article>
+
+
+            <!-- Publication 3 -->
+
+            <article class="publication-card">
+
+                <div class="publication-label">
+                    Publication 03
+                </div>
+
+                <h3>
+                    Comparative analysis of forecasting methods and
+                    integration with inventory models for efficient demand
+                    management in the electronics sector
+                </h3>
+
+                <p>
+                    M. Ashaduzzaman, S. A. Khan, N. I. Nawar,
+                    A. A. Biswas, M. L. R. Lingkon, and M. S. Hossain,
+                    “Comparative analysis of forecasting methods and
+                    integration with inventory models for efficient demand
+                    management in the electronics sector,”
+                    SciEn Conference Series: Engineering, vol. 3,
+                    pp. 627–632, 2025.
+                </p>
+
+                <a class="publication-link"
+                   href="https://doi.org/10.38032/scse.2025.3.158"
+                   target="_blank">
+                    DOI: 10.38032/scse.2025.3.158 →
+                </a>
+
+            </article>
+
+
+            <!-- Publication 4 -->
+
+            <article class="publication-card">
+
+                <div class="publication-label">
+                    Publication 04
+                </div>
+
+                <h3>
+                    Optimizing Inventory by Minimizing Holding Costs and
+                    Stockout of Raw Materials of Denim Jacket Production
+                    Using LSTM Model: A Case Study
+                </h3>
+
+                <p>
+                    International Conference on Sustainable Supply Chain
+                    and Logistics Management (ICSSCLM-26),
+                    Seoul, South Korea.
+                </p>
+
+                <a class="publication-link"
+                   href="https://academicresearchlibrary.com/abstract-detail/4888"
+                   target="_blank">
+                    View Publication / Abstract →
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     RESEARCH EXPERIENCE
+========================================================= -->
+
+<section class="research-experience">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Research Experiences</h2>
+
+            <p>
+                Selected ongoing, under-review, undergraduate thesis,
+                and completed research activities.
+            </p>
+
+        </div>
+
+
+        <div class="research-list">
+
+
+            <!-- Research 1 -->
+
+            <article class="research-card">
+
+                <span class="status">
+                    Under Review
+                </span>
+
+                <h3>
+                    Revolutionizing Healthcare System Through Artificial
+                    Intelligence Implementation: A Hesitant Probabilistic
+                    Decision-Making Approach
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Developed SWARA to do the weighting of criteria
+                        and MSD to calculate the weight of experts in a
+                        hesitant probabilistic fuzzy system to assess
+                        AI implementation strategies.
+                    </li>
+
+                    <li>
+                        The combined expert-based review effectively
+                        placed the AI/IoT training and diagnostic
+                        enrichment the top for AI driven healthcare
+                        transformation.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- Research 2 -->
+
+            <article class="research-card">
+
+                <span class="status">
+                    Ongoing Research
+                </span>
+
+                <h3>
+                    Sizing a Sustainable Off-Grid Microgrid for River
+                    Island Electrification: The Case of Khidirpur Char
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Optimized a grid-independent PV/Diesel/Battery
+                        hybrid renewable energy system for off-grid
+                        electrification (Khidirpur Char, Bangladesh)
+                        using HOMER Pro, NSGA-II, and MOPSO for
+                        tri-objective optimization (NPC, LCOE, CO₂).
+                    </li>
+
+                    <li>
+                        Applied CRITIC–TOPSIS for weight-free
+                        compromise selection.
+                    </li>
+
+                    <li>
+                        Achieved ~79% CO₂ reduction and 93% renewable
+                        fraction with zero unmet load.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- Research 3 -->
+
+            <article class="research-card">
+
+                <span class="status">
+                    Undergrad Thesis
+                </span>
+
+                <h3>
+                    Integrated Demand Forecasting and Inventory Management
+                    Model for Perishable Product
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Hybrid demand forecasting model improves demand
+                        forecasting.
+                    </li>
+
+                    <li>
+                        Proposed constraint awareness inventory and
+                        integrated with demand forecasting to reduce
+                        product wastages and stock outs in retails shops.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- Research 4 -->
+
+            <article class="research-card">
+
+                <h3>
+                    Strategic Implementation of AI and ML in the
+                    Pharmaceutical Sector: A Dual Hesitant Fuzzy Group
+                    Decision Making Approach
+                </h3>
+
+                <p style="margin-bottom: 12px; color: #6b7280;">
+                    7th IEOM Bangladesh International Conference on
+                    Industrial Engineering and Operations Management, 2024
+                </p>
+
+                <ul>
+
+                    <li>
+                        Developed a dual hesitant multi criteria group
+                        decision making framework to evaluate AI and
+                        Ml implementation strategies in the
+                        pharmaceutical sector.
+                    </li>
+
+                    <li>
+                        Used the DHFHM operator to aggregate uncertain
+                        expert opinions and calculate strategy scores.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- Research 5 -->
+
+            <article class="research-card">
+
+                <h3>
+                    Integrating Renewable Energy and Customer Insights:
+                    A Systematic Approach to Solar Power Bank Design
+                </h3>
+
+                <p style="margin-bottom: 12px; color: #6b7280;">
+                    7th IEOM Bangladesh International Conference on
+                    Industrial Engineering and Operations Management, 2024
+                </p>
+
+                <ul>
+
+                    <li>
+                        Proposed a customer-driven solar power bank
+                        design using survey, kano model and QFD.
+                    </li>
+
+                    <li>
+                        Selected optimal material using the Digital
+                        Logic Method.
+                    </li>
+
+                    <li>
+                        The validated the design with CAD modeling and
+                        stress analysis which was structurally safe and
+                        feasible for manufacturing.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- Research 6 -->
+
+            <article class="research-card">
+
+                <h3>
+                    Comparative Analysis of Forecasting Methods and
+                    Integration with Inventory Models for Efficient
+                    Demand Management in the Electronics Sector
+                </h3>
+
+                <p style="margin-bottom: 12px; color: #6b7280;">
+                    8th International Conference on Mechanical, Industrial
+                    and Energy Engineering 2024
+                </p>
+
+                <ul>
+
+                    <li>
+                        Compared three forecasting methods and found
+                        Linear Regression most accurate.
+                    </li>
+
+                    <li>
+                        Integrated forecasting with an inventory model
+                        (EOQ, safety stock, reorder level) to improve
+                        decision making.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROJECTS
+========================================================= -->
+
+<section class="projects" id="projects">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Projects</h2>
+
+            <p>
+                Academic and engineering projects.
+            </p>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <!-- Project 1 -->
+
+            <article class="project-card">
+
+                <h3>
+                    Mobile Phone Charger
+                </h3>
+
+                <p>
+                    Built a Mobile Phone Charger by using basic
+                    transformers and circuits for an academic lab course
+                    'Electrical Engineering Lab'.
+                </p>
+
+            </article>
+
+
+            <!-- Project 2 -->
+
+            <article class="project-card">
+
+                <h3>
+                    Solar Power Bank
+                </h3>
+
+                <p>
+                    Built a solar power bank that charges with both the
+                    help of solar and Ac current as a part of the course
+                    'Product Design Lab - II.'
+                </p>
+
+            </article>
+
+
+            <!-- Project 3 -->
+
+            <article class="project-card">
+
+                <h3>
+                    Smart Rain Shield For Laundry:
+                    “Automated Protection with Arduino Uno”
+                </h3>
+
+                <p>
+                    Developed a fully automated laundry prototype that
+                    reduces manual labor and keeps clothes dry and
+                    protected in all weather.
+                </p>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     TECHNICAL SKILLS
+========================================================= -->
+
+<section class="skills" id="skills">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Technical Skills</h2>
+
+            <p>
+                Technical skills listed in my CV.
+            </p>
+
+        </div>
+
+
+        <div class="skill-groups">
+
+
+            <!-- CAD -->
+
+            <div class="skill-group">
+
+                <h3>CAD</h3>
+
+                <div class="skill-tags">
+
+                    <span class="skill-tag">
+                        SolidWorks
+                    </span>
+
+                    <span class="skill-tag">
+                        Fusion 360
+                    </span>
+
+                    <span class="skill-tag">
+                        AutoCAD
+                    </span>
+
+                    <span class="skill-tag">
+                        Mastercam
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Programming -->
+
+            <div class="skill-group">
+
+                <h3>Programming</h3>
+
+                <div class="skill-tags">
+
+                    <span class="skill-tag">
+                        C
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Miscellaneous -->
+
+            <div class="skill-group">
+
+                <h3>Miscellaneous</h3>
+
+                <div class="skill-tags">
+
+                    <span class="skill-tag">
+                        MS Word
+                    </span>
+
+                    <span class="skill-tag">
+                        MS PowerPoint
+                    </span>
+
+                    <span class="skill-tag">
+                        MS Excel
+                    </span>
+
+                    <span class="skill-tag">
+                        LaTeX
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROFESSIONAL EXPERIENCE
+========================================================= -->
+
+<section class="professional" id="experience">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Professional Experiences</h2>
+
+            <p>
+                Industrial training and practical exposure.
+            </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <!-- Square Toiletries -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <h3>
+                    Trainee – Square Toiletries Limited
+                </h3>
+
+                <div class="timeline-date">
+                    February 2025 – March 2025
+                </div>
+
+                <p>
+                    Completed a structured trainee program at Square
+                    Toiletries Limited, gaining hands-on experience in
+                    FMCG operations and quality-focused work practices.
+                </p>
+
+                <p>
+                    Assisted in daily production, quality checks, and
+                    process coordination while maintaining company
+                    standards and safety protocols.
+                </p>
+
+                <p>
+                    Developed practical skills in teamwork, documentation,
+                    and problem-solving by supporting cross-functional
+                    departments in routine tasks.
+                </p>
+
+            </div>
+
+
+            <!-- North South Power -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <h3>
+                    Industry Visit – North South Power Company Limited
+                </h3>
+
+                <div class="timeline-date">
+                    Industry Visit
+                </div>
+
+                <p>
+                    Visited North South Power Company Limited to observe
+                    real-world power generation operations, gaining
+                    practical exposure to industrial processes and
+                    energy management.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     AFFILIATIONS
+========================================================= -->
+
+<section class="affiliations" id="affiliations">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Affiliation & Leadership</h2>
+
+            <p>
+                Leadership, student activities, and community involvement.
+            </p>
+
+        </div>
+
+
+        <div class="affiliation-grid">
+
+
+            <!-- SCADR -->
+
+            <article class="affiliation-card">
+
+                <h3>
+                    Society of Computer Aided Design RUET (SCADR)
+                </h3>
+
+                <div class="affiliation-role">
+                    Event Management Secretary & CAD Trainer
+                </div>
+
+                <p>
+                    2024–2025
+                </p>
+
+                <p>
+                    Expertise in guiding design processes and executing
+                    well-coordinated, impactful events.
+                </p>
+
+            </article>
+
+
+            <!-- RUET IPE Club -->
+
+            <article class="affiliation-card">
+
+                <h3>
+                    RUET IPE CLUB
+                </h3>
+
+                <div class="affiliation-role">
+                    Executive Member
+                </div>
+
+                <p>
+                    2022–2023
+                </p>
+
+                <p>
+                    Organized events related to the club.
+                </p>
+
+                <p>
+                    Maintained connection with every member of the club.
+                </p>
+
+            </article>
+
+
+            <!-- Nobojagoron -->
+
+            <article class="affiliation-card">
+
+                <h3>
+                    Nobojagoron Foundation
+                </h3>
+
+                <div class="affiliation-role">
+                    Executive Member
+                </div>
+
+                <p>
+                    2025 – Present
+                </p>
+
+                <p>
+                    A youth voluntary organization of Rajshahi University.
+                </p>
+
+                <p>
+                    Focuses on community development, providing educational
+                    support to underprivileged children in Rajshahi area.
+                </p>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CERTIFICATIONS
+========================================================= -->
+
+<section class="certifications">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Certifications & Activities</h2>
+
+            <p>
+                Participation and academic activities listed in the CV.
+            </p>
+
+        </div>
+
+
+        <div class="cert-list">
+
+
+            <div class="cert-item">
+
+                <strong>
+                    Research Poster Presentation Competition at RUET
+                </strong>
+
+                <br>
+
+                Participation in the research poster presentation
+                competition at RUET — Issued September 01, 2025
+
+            </div>
+
+
+            <div class="cert-item">
+
+                <strong>
+                    Industrial Visit to Sirajganj Power Plant
+                </strong>
+
+                <br>
+
+                Participation in the event “Industrial visit to Sirajganj
+                Power Plant operated by North-West Power Generation Company
+                Limited (NWPGCL), Sirajganj” organized by IEEE RUET —
+                Issued August 07, 2025
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     REFERENCES
+========================================================= -->
+
+<section class="references">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>References</h2>
+
+            <p>
+                Academic references listed in the CV.
+            </p>
+
+        </div>
+
+
+        <div class="reference-grid">
+
+
+            <!-- Reference 1 -->
+
+            <div class="reference-card">
+
+                <h3>
+                    Dr. Md. Mohibul Islam
+                </h3>
+
+                <div class="position">
+                    Professor, Dept. of IPE, RUET
+                </div>
+
+                <p>
+                    Email | Website
+                </p>
+
+            </div>
+
+
+            <!-- Reference 2 -->
+
+            <div class="reference-card">
+
+                <h3>
+                    Dr. Shahed Mahmud
+                </h3>
+
+                <div class="position">
+                    Professor, Dept. of IPE, RUET
+                </div>
+
+                <p>
+                    Email | Website
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="reference-note">
+            Contact links can be added here when the corresponding
+            email addresses and website URLs are available.
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Contact & Academic Profiles</h2>
+
+            <p>
+                Connect with me for academic, research, and professional
+                opportunities.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <!-- Email -->
+
+            <div class="contact-card">
+
+                <h3>📧 Email</h3>
+
+                <!-- Replace with actual email -->
+                <p>
+                    <a href="mailto:YOUR_EMAIL@example.com">
+                        YOUR_EMAIL@example.com
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- LinkedIn -->
+
+            <div class="contact-card">
+
+                <h3>💼 LinkedIn</h3>
+
+                <!-- Replace # with actual LinkedIn URL -->
+                <p>
+                    <a href="#" target="_blank">
+                        View LinkedIn Profile
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- Google Scholar -->
+
+            <div class="contact-card">
+
+                <h3>🎓 Google Scholar</h3>
+
+                <!-- Replace # with actual Google Scholar URL -->
+                <p>
+                    <a href="#" target="_blank">
+                        View Google Scholar Profile
+                    </a>
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <p>
+        © <span id="year"></span> Atif Abrar Biswas.
+        All rights reserved.
+    </p>
+
+</footer>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+
+</script>
+
+
+</body>
+</html>
